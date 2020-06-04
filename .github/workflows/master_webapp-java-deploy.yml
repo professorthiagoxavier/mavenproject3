@@ -29,4 +29,4 @@ jobs:
         app-name: 'webapp-java-deploy'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_5d4db4c1aba143499ba323fb210b152e }}
-        package: '${{ github.workspace }}/target/*.war'
+        package: '${{ github.workspace }}/target/*.jar'
